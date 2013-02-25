@@ -1,6 +1,6 @@
 from django.contrib.admin.options import ModelAdmin
 
-old_media = ModelAdmin._media
+old_media = ModelAdmin.media
 
 
 def new_media(self):
